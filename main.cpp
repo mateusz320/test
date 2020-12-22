@@ -36,7 +36,7 @@ void loop()
 {
   //float moc=0.0f;  //255=100%     191-75%    127-50%   63-25%    0-0% 
   
-  //for( int i=0;i<5;i++)
+  for( int i=0;i<5;i++)
   {
     silnik(0.1f*(i+1),MOTOR_PWM_RIGHT_PIN ,MOTOR_DIR1_RIGHT ,MOTOR_DIR2_RIGHT);
     delay(2000);
@@ -44,5 +44,5 @@ void loop()
     delay(2000);
   }  
     silnik(0.0f,MOTOR_PWM_RIGHT_PIN ,MOTOR_DIR1_RIGHT ,MOTOR_DIR2_RIGHT);
-    //while(1);  
+    while(1);  
 }
