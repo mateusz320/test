@@ -45,4 +45,4 @@ void loop()
   }  
     silnik(0.0f,MOTOR_PWM_RIGHT_PIN ,MOTOR_DIR1_RIGHT ,MOTOR_DIR2_RIGHT);
     while(1);  
-
+}
